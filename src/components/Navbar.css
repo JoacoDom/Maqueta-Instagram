@@ -1,0 +1,15 @@
+li {
+  display: flex;
+  flex-direction: row;
+  height: 52px;
+  gap: 12px;
+  align-items: center;
+  transition: 0.5s ease, color 0.2s ease;
+  padding: 5px;
+}
+
+li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  cursor: pointer;
+}
