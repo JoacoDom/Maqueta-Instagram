@@ -2,7 +2,6 @@ function ProfileHeader({ username }) {
   return (
     <header>
       <div className="flex gap-16 items-start pb-10">
-        {/* Imagen de perfil */}
         <div className="flex-shrink-0">
           <img
             src="https://i.pravatar.cc/150?u=857369"
@@ -11,9 +10,7 @@ function ProfileHeader({ username }) {
           />
         </div>
 
-        {/* Info del usuario */}
         <div className="flex flex-col gap-4">
-          {/* Usuario + botones */}
           <div className="flex items-center gap-3">
             <h2 className="text-2xl cursor-pointer">{username}</h2>
             <button
@@ -28,8 +25,6 @@ function ProfileHeader({ username }) {
             >
               Ver archivo
             </button>
-
-            {/* Icono de configuración */}
             <button className="p-2 rounded-full cursor-pointer">
               <svg
                 aria-label="Opciones"
@@ -72,7 +67,6 @@ function ProfileHeader({ username }) {
             </button>
           </div>
 
-          {/* Stats: publicaciones, seguidores, seguidos */}
           <div className="flex gap-8 text-sm">
             <p>
               <span className="font-semibold">2</span> publicaciones
@@ -86,7 +80,6 @@ function ProfileHeader({ username }) {
             </p>
           </div>
 
-          {/* Nombre real y bio */}
           <div>
             <p className="font-semibold">Usuario</p>
             <p className="text-sm">Descripción</p>

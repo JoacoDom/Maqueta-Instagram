@@ -2,7 +2,6 @@
 
 import { UserProvider } from "@/context/UserContext";
 import Navbar from "@/components/Navbar";
-import Create from "@/components/Create";
 const username = "usuario123";
 
 function ClientLayout({ children }) {

@@ -1,10 +1,8 @@
 function Chats({ username }) {
   return (
     <div className="flex h-screen">
-      {/* Sidebar mini con íconos */}
       <aside className="w-17 bg-black text-white flex flex-col items-center py-4 space-y-6" />
 
-      {/* Lista de chats */}
       <section className="w-[398px] text-white border-r border-gray-800 overflow-y-auto p-4">
         <div className="p-4 text-xl font-semibold flex flex-row justify-between">
           <span className="cursor-pointer">{username}</span>
@@ -94,7 +92,6 @@ function Chats({ username }) {
         </ul>
       </section>
 
-      {/* Chat activo */}
       <main className="flex-1 text-white flex flex-col justify-center items-center gap-3">
         <svg
           aria-label="Ayuda"

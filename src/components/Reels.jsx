@@ -8,16 +8,13 @@ function Reels() {
       }}
     >
       <div className="flex flex-row justify-between">
-        {/* Contenedor del Reel */}
         <div className="relative w-[468px] h-[832px] rounded-md overflow-hidden">
-          {/* Imagen de fondo */}
           <img
             src="https://picsum.photos/id/32/500/900"
             alt="Reel"
             className="absolute inset-0 w-full h-full object-cover cursor-pointer"
           />
 
-          {/* Contenido inferior del reel */}
           <div className="absolute bottom-0 left-0 w-full z-10 p-5 text-white bg-gradient-to-t from-black/60 to-transparent flex flex-col gap-3">
             <div className="flex items-center gap-2 mb-2">
               <img
@@ -48,9 +45,7 @@ function Reels() {
           </div>
         </div>
 
-        {/* Botones de interacción */}
         <div className="flex flex-col justify-end items-center gap-6">
-          {/* Tus botones */}
           <button className="cursor-pointer hover:scale-110 transition-transform duration-200">
             <svg
               aria-label="Me gusta"
